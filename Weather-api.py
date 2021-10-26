@@ -1,12 +1,10 @@
 import http.client
 
 conn = http.client.HTTPSConnection("api.weatherapi.com")
-headers = {
-    'x-rapidapi-host': "weatherapi-com.p.rapidapi.com",
-    'x-rapidapi-key': "SIGN-UP-FOR-KEY"
-    }
+payload = ''
+headers = {}
 
-conn.request("GET", "/ip.json?q=%3CREQUIRED%3E", headers=headers)
+conn.request("GET", "/v1/current.json?q=Paris&Key={{YOURKEY}}", payload, headers)
 res = conn.getresponse()
 data = res.read()
 print(data.decode("utf-8"))
