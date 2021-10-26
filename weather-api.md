@@ -25,9 +25,18 @@ This guide takes you through step by step process on how to use Weather API.
 - Login and go to dashboard. Copy your API key.
 - Go to [Ineractive Explorer](https://www.weatherapi.com/api-explorer.aspx) and paste your API key. 
 - Select your protocol and format.
-- Select different APIs below to view the responses. 
+- Select an API below and select 'Show Response' to view the response.
+-  This displays - call, response code, response headers, response body. 
 
-## 
+## Using Postman
+
+- Go to [Postman](https://www.postman.com/). Sign in or sign up.
+- Go to 'Start with something new' and select 'Create New'.
+- Select 'HTTP Request'.
+- Enter the base URL along with API method.
+- Enter you access key in the Params and a query parameter 'value' corresponding to the API method.
+- Once you 'Send' the request, you can view repsonse in the 'Body'.
+
 
 
 
