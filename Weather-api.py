@@ -5,6 +5,6 @@ payload = ''
 headers = {}
 
 conn.request("GET", "/v1/current.json?q=Paris&Key={{YOURKEY}}", payload, headers)
-res = conn.getresponse()
-data = res.read()
+response = conn.getresponse()
+data = response.read()
 print(data.decode("utf-8"))
