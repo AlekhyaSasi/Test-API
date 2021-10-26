@@ -41,5 +41,6 @@ This guide takes you through step by step process on how to use Weather API.
 
 
 
+<!-- https://www.codespeedy.com/weather-forecasting-script-in-python-api-call-method/-->
 
 
